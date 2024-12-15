@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Gourmet</title>
+  <link rel="stylesheet" href="styles.css">
+
+  
+</head>
+<body>
+  <!-- Barra Superior con carrito -->
+  <div class="barra-superior">
+    <div class="contact-info">
+      
+    </div>
+    <div class="carrito">
+      <a href="#carrito">
+        <i class="fas fa-shopping-cart"></i> 
+        Carrito (<span id="carrito-count">0</span>)
+      </a>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo">
+      <h1>El Rincón Gourmet</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#bienvenida">Bienvenida</a></li>
+        <li><a href="#productos">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+     </div>
+
+
+     <!-- Slider Show -->
+  <section id="Bienvenida" class="slider">
+    <div class="slider-container">
+      <div class="slide fade">
+        <img src="img/sancocho.jpg" alt="Plato 1">
+        <div class="text">Sancocho</div>
+      </div>
+      <div class="slide fade">
+        <img src="img/pescados.jpg" alt="Plato 2">
+        <div class="text">Pescado</div>
+      </div>
+      <div class="slide fade">
+        <img src="img/bandera rd.jpeg" alt="Plato 3">
+        <div class="text">La Bandera</div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Sección de las cartas -->
+  <section id="productos" class="productos">
+    
+    <div class="producto-card">
+      <img src="img/sancocho.jpg" alt="Plato 1">
+      <h3>Sancocho</h3>
+      <p>Delicioso Sancocho Dominicano.</p>
+      <span>$600</span>
+      <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+    </div>
+    
+    <div class="producto-card">
+      <img src="img/pescados.jpg" alt="Plato 2">
+      <h3>Pescado</h3>
+      <p>Exquisito Pescado .</p>
+      <span>$300</span>
+      <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+    </div>
+    
+    <div class="producto-card">
+      <img src="img/bandera rd.jpeg" alt="Plato 3">
+      <h3>La Bandera</h3>
+      <p>La Bandera Dominicana.</p>
+      <span>$200</span>
+      <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+    </div>
+  </section>
+
+<!-- Sección de las cartas -->
+<section class="productos">
+  <div class="producto-card">
+    <img src="img/arroz con leche.png" alt="Plato 1">
+    <h3>Arroz Con Leche</h3>
+    <p>Delicioso Arroz Con Leche.</p>
+    <span>$90</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+  
+  <div class="producto-card">
+    <img src="img/dulce de coco.jpg" alt="Plato 2">
+    <h3>Dulce De Coco</h3>
+    <p>Exquisito Dulce De Coco.</p>
+    <span>$55</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+  
+  <div class="producto-card">
+    <img src="img/Habichuelas-con-Dulce.jpg" alt="Plato 3">
+    <h3>Habichuelas Con Dulce</h3>
+    <p>Una Deliciosa Habichuelas Con Dulce .</p>
+    <span>$125</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+</section>
+
+<!-- Sección de las cartas -->
+<section class="productos">
+  <div class="producto-card">
+    <img src="img/cerbesa.jpg" alt="Plato 1">
+    <h3>Cervesa presidente</h3>
+    <p>Una De Las Bebidas Mas Refrescantes</p>
+    <span>$120</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+  
+  <div class="producto-card">
+    <img src="img/repu.PNG" alt="Plato 2">
+    <h3>Republica La Tuya</h3>
+    <p>Una De Las Bebidas Mas Refrescantes.</p>
+    <span>$250</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+  
+  <div class="producto-card">
+    <img src="img/cosla.PNG" alt="Plato 3">
+    <h3>Cola Real</h3>
+    <p>Una De Las Bebidas Mas Refrescantes.</p>
+    <span>$60</span>
+    <button onclick="agregarAlCarrito()">Añadir al carrito</button>
+  </div>
+</section>
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+  
+    
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Reserva tu mesa o contáctanos para más información.</p>
+    <address>
+      <p>Email: <a href="mailto:info@restaurantegourmet.com">ElRincóngourmet@.com</a></p>
+      <p>Teléfono: +1 834 567 4890</p>
+      <p>Dirección: Calle 123, santo domingo, RD</p>
+    </address>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 El Rincón Gourmet. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
